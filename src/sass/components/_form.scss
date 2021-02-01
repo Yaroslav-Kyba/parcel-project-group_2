@@ -1,4 +1,6 @@
 .form{
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("../Images/Hero/Form/bg-mobile.png");
     background-color: rgba(17, 21, 24, 1);
     background-repeat: no-repeat;
@@ -111,12 +113,13 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px){
     }
 }
 
+.button-flex{
+    display: flex;
+}
+
 .form-button{
     height: 48px;
     width: 260px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 10px;
     padding: 0;
     font-style: normal;
     font-weight: bold;
@@ -128,6 +131,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px){
     color: rgb(255, 255, 255);
     background-color: var(--accent-color);
     border: none; 
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-button:hover,
@@ -160,8 +168,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px){
     }
 
     .form-button{
-        margin-top: 50px;
-        margin-left: 216px;
+        margin-top: 31px;
+        margin-bottom: 71px;
     }
 
     .form-input{
@@ -209,7 +217,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px){
         line-height: 1.214px;
         width: 354px;
         height: 70px;
-        margin-left: 643px;
+        
+        margin-top: 80px;
+        margin-bottom: 62px;
+        
     }
 
     .form-container{
