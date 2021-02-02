@@ -11,12 +11,14 @@
 
 .footer-address{
     margin-top: 21px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-icon-tel{
     fill: var(--accent-color);
     float: left;
-    margin-left: 40px;
     margin-right: 10px;
 }
 
@@ -36,11 +38,15 @@
     width: 40px;
     height: 40px;
     margin-top: 31px;
-    margin-left: 120px;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-black-bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 70px;
     background-color: rgba(17, 21, 24, 1);
 }
@@ -54,7 +60,7 @@
     align-items: center;
     color: rgb(185, 185, 185);
     padding-top: 21px;
-    margin-left: 52px;
+    text-align: center;
 }   
 
 
@@ -72,10 +78,12 @@
         align-items: center;
         justify-content: flex-end;
         margin-left: inherit;
+        padding: 0px;
     }
 
     .footer-address{
         margin: 0px;
+        width: auto;
     }
 
     .footer-flex-container{
@@ -104,7 +112,7 @@
     }
 
     .footer-rights{
-        margin-right: 40px;
+        text-align: left;
     }
 
     .footer-logo-link{
@@ -132,13 +140,14 @@
         height: 40px;
     }
 
-    .footer-rights{
-        padding-left: 40px;
+    .footer-black-bloc{
+        display: flex;
+        align-items: flex-start;
     }
 
 }
 
-@media screen and (min-width: 1680px){
+@media screen and (min-width: 1376px){
 
     .footer-flex-container{
         height: 150px;
@@ -152,6 +161,7 @@
         flex-direction: row;
         align-items: center;
         margin: auto;
+        justify-content: center;
     }
 
     .footer-icon-tel{
@@ -161,6 +171,8 @@
     }
 
     .footer-number{
+        display: flex;
+        align-items: center;
         font-weight: 600;
         font-size: 30px;
         line-height: 1.233;
@@ -177,12 +189,18 @@
 
     .footer-logo-link{
         padding: 0px;
+        position: absolute;
     }
 
     .footer-rights{
         margin: 0px;
-        padding-left: 183px;
     }
+    
+    .black-container{
+        margin-left: 183px;
+        padding: 0px;
+    }
+
  }  
 
 
